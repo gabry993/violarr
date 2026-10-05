@@ -1,12 +1,13 @@
 name: Publish Docker image
 
 on:
+  workflow_dispatch:
   release:
     types: [published]
 
 env:
   REGISTRY: ghcr.io
-  PRIMARY_IMAGE_NAME: xbit18/violarr
+  PRIMARY_IMAGE_NAME: <your-user-lowercase>/violarr
 
 jobs:
   build-and-push:
