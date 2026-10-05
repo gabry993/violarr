@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  PRIMARY_IMAGE_NAME: <your-user-lowercase>/violarr
+  PRIMARY_IMAGE_NAME: gabry993/violarr
 
 jobs:
   build-and-push:
